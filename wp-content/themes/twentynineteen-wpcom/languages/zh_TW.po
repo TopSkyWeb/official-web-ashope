@@ -307,8 +307,8 @@ msgstr "頁尾選單"
 
 #. translators: %s: WordPress.
 #: footer.php:28
-msgid "Copyright"
-msgstr "版權所有"
+msgid "Proudly powered by %s."
+msgstr "本站使用 %s 建置。"
 
 #. #-#-#-#-#  twentynineteen.pot (Twenty Nineteen 1.1-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
