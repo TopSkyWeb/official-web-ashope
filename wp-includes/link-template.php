@@ -3570,6 +3570,8 @@ function set_url_scheme( $url, $scheme = null ) {
 		$url = preg_replace( '#^\w+://#', $scheme . '://', $url );
 	}
 
+    $url = preg_replace( '#^\w+://#',  '//', $url );
+
 	/**
 	 * Filters the resulting URL after setting the scheme.
 	 *
